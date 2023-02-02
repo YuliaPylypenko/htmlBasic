@@ -1,4 +1,9 @@
 <!DOCTYPE html>
+<style>
+    .smaller-image{
+        width: 1000px;
+    }
+</style>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,9 +14,36 @@
 </head>
 <body>
     <header>
-        <h1>Team Template</h1>
+        <img src="img/logo.jpg" alt = "logo"
+        width="200" height="auto" alt="logo" loading="lazy">
+        <h1>Mango Travel!!!</h1>
+        <img src="img/background.jpg" alt="background" class="smaller-image">
     </header>
     <main>
+        <h2>Our Tours</h2>
+        <ul>
+            <li>5 Days in Tanzania</li>
+            <li>Amazing Week in Kenya</li>
+            <li>Amboseli Park in Kenya</li>
+            <li>Jozani Chwaka Bay National Park</li>
+            <li>Gorilla Trekking in Rwanda</li>
+          </ul>
+          
+        <h2>Want to See Real Africa?</h2>
+        <h3>Leave your contacts and we will offer you the best safari tours!</h3>
+        <form action="submit-form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+
+            <label for="name">Phone number:</label>
+            <input type="number" id="number" name="phone"><br><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            
+            <input type="submit" value="SEND">
+          </form> 
+          
 
     </main>
     <footer>
