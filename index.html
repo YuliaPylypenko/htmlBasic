@@ -5,48 +5,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mango Travel</title>
+    <title>Safari Tours</title>
     <link rel="shortcut icon" href="https://placekitten.com/96/139" type="image/x-icon">
 
-    <style>
-        .smaller-image {
-            width: 1000px;
-        }
-    </style>
 </head>
 
 <body>
-    <header>
-        <img src="img/logo.jpg" alt="logo" width="200" height="200" loading="lazy">
-        <h1>Mango Travel!!!</h1>
-        <img src="img/background.jpg" alt="background" class="smaller-image">
-    </header>
-    <main>
-        <h2>Our Tours</h2>
-        <ul>
-            <li>5 Days in Tanzania</li>
-            <li>Amazing Week in Kenya</li>
-            <li>Amboseli Park in Kenya</li>
-            <li>Jozani Chwaka Bay National Park</li>
-            <li>Gorilla Trekking in Rwanda</li>
-        </ul>
-
-        <h2>Want to See Real Africa?</h2>
-        <h3>Leave your contacts and we will offer you the best safari tours!</h3>
+    <header class="header">
+        <div class="header__contacts">
+            <p class="header__address">Phone: + 1-234-567-8900</p>
+        </div>
+    
+        <nav class="header__nav">
+            <a href="MET." class="">MET.</a>
+                
+        </nav>
+        <div class="header__menu">
+            <a href="About" class="header__menu-item">About</a>
+            <a href="Tickets" class="header__menu-item">Tickets</a>
+            <a href="Lectures" class="header__menu-item">Lectures</a>
+            
+            <a href="Gallery" class="header__menu-item">Gallery</a>
+            <a href="Testimonials" class="header__menu-item">Testimonials</a>
+            <a href="FAQ" class="header__menu-item">FAQ</a>
+            <a href="FAQ" class="header__menu-item">Contacts</a>
+        </div>
+    
+        <div class="header__banner">
+            <h1 class="header__title">Discover the works of Bernini</h1>
+            <p class="header__text">A special set of guided tours in The Metropolitan 
+                Museum of Art from 10 Nov. to 13 Nov. 2019</p>
+        </div>
+        <div class="contacts__form">
         <form action="submit-form.php" method="post">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name"><br><br>
-
-            <label for="name">Phone number:</label>
-            <input type="number" id="number" name="phone"><br><br>
-
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email"><br><br>
-
-            <input type="submit" value="SEND">
+            <label for="name">Name*</label>
+            <input type="text" id="name" name="name" required>
+            <label for="name">Phone number*</label>
+            <input type="number" id="number" name="phone" required>
+            <label for="email">Email*</label>
+            <input type="email" id="email" name="email" required>
+            <input type="submit" value="SIGN UP">
         </form>
+    </div>
+    </header>
 
-
+    <main>
+    
     </main>
     <footer>
 
