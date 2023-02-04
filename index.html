@@ -8,20 +8,16 @@
     <title>Museum</title>
     <link rel="shortcut icon" href="#" type="image/x-icon">
     <style>
-        body {
-            background-color: gray;
-            background-size: cover;
-            background-repeat: no-repeat;
+        .background {
+            background: rgba(20, 20, 20, 0.463)
         }
     </style>
 </head>
 
-<body>
+<body class="background">
     <header class="header">
         <div class="header__top-line-container">
             <p class="header__address">Phone: + 1-234-567-8900</p>
-
-
             <div class="header__social-icons">
                 <a href="#" class="header__icons-item">
                     <img width="40" src="img/facebook-icon.svg" alt="Facebook">
@@ -34,26 +30,21 @@
                 </a>
             </div>
         </div>
-
-
-
         <nav class="header__nav">
             <a href="MET." class="header__menu">MET.</a>
             <div class="header__menu">
-                <a href="about" class="header__menu-item">About</a>
-                <a href="tickets" class="header__menu-item">Tickets</a>
-                <a href="lectures" class="header__menu-item">Lectures</a>
-
-                <a href="gallery" class="header__menu-item">Gallery</a>
-                <a href="testimonials" class="header__menu-item">Testimonials</a>
-                <a href="faq" class="header__menu-item">FAQ</a>
-                <a href="contacts" class="header__menu-item">Contacts</a>
+                <a href="#" class="header__menu-item">About</a>
+                <a href="#" class="header__menu-item">Tickets</a>
+                <a href="#" class="header__menu-item">Lectures</a>
+                <a href="#" class="header__menu-item">Gallery</a>
+                <a href="#" class="header__menu-item">Testimonials</a>
+                <a href="#" class="header__menu-item">FAQ</a>
+                <a href="#" class="header__menu-item">Contacts</a>
             </div>
         </nav>
-
         <div class="header__banner">
             <h1 class="header__title">Discover the works of Bernini</h1>
-            <img src="/img/lable.svg" alt="lable" width="200">
+            <img src="/img/lable.svg" width="200" alt="lable">
             <p class="header__text">A special set of guided tours in The Metropolitan
                 Museum of Art from 10 Nov. to 13 Nov. 2019</p>
         </div>
@@ -69,11 +60,50 @@
             </form>
         </div>
     </header>
-
     <main>
-
+        <section class="masters">
+            <div class="masters__offer">
+                <h4>ABOUT THE EXHIBITION</h4>
+                <img src="/img/lable.svg" width="200" alt="lable">
+                <h2>Meet the Great Masters</h2>
+                <p>A special set of guided tours of a Bernini and Caravaggio exhibition let you dive in the most
+                    valuable
+                    masterpieces brought together in The Metropolitan Museum of Art.</p>
+                <img src="/img/masters.jfif" width="1000" alt="masterpieces">
+                <h2>Sculptures and paintings from around the world</h2>
+                <p>Paintings by Caravaggio, sculptures by Bernini and other works of huge importance to the early Roman
+                    Baroque are on view together for the first time ever at The Metropolitan Museum of Art. We've
+                    thoroughly
+                    selected each masterpiece and prepared great guided tours for our visitors. Let this website give
+                    you an
+                    impression of what awaits you at the temporary exhibition.</p>
+            </div>
+            <nav class="masters__booking">
+                <div class="header__social-icons">
+                    <a href="#" class="header__icons-item">
+                        <img width="40" src="img/facebook-icon.svg" alt="Facebook">
+                    </a>
+                    <a href="#" class="header__icons-item">
+                        <img width="40" src="img/social-icon.svg" alt="Linkedin">
+                    </a>
+                    <a href="#" class="header__icons-item">
+                        <img width="40" src="img/twitt-social-icon.svg" alt="Twitter">
+                    </a>
+                </div>
+                <a href="#" class="space__link">See more</a>
+                <a href="#" class="space__link">Book Tickets</a>
+            </nav>
+        </section>
     </main>
-    <footer>
+    <footer class="footer">
+        <div class="footer__contacts-form">
+            <h2>Contacts</h2>
+            <h3>LOCATION</h3>
+            <p> The Metropolitan Museum of Art, 1000 5th Ave
+                New York, NY 10028</p>
+            <p> +1 (234) 567 89 00
+                antiq@email.com</p>
+        </div>
 
     </footer>
 </body>
