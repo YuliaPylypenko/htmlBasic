@@ -1,0 +1,39 @@
+
+.header__address{
+    color: rgb(255, 255, 255);
+    font-family: Lato, sans-serif;
+    font-size: 14px;
+}
+.header__nav-top-symol{
+    color: rgb(255, 255, 255);
+    font-family: Lato, sans-serif;
+    font-size: 26px;
+    font-weight: 900;
+}
+.header__title{
+    font-family: 'Playfair Display', serif;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    font-size: 58px;
+}
+.colortext{
+    color: rgb(179, 156, 89);
+    font-family: 'Playfair Display', serif;
+    text-align: left;
+    font-size: 58px;
+}
+.header__text{
+    color: rgb(255, 255, 255);
+    font-family: Lato, sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+}
+.contacts__form{
+    color: rgb(153, 153, 153);
+    font-family: Lato, sans-serif;
+    font-weight: 400;
+    line-height: 26.52%;
+    text-align: left;
+    vertical-align: baseline;
+}

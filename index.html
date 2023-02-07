@@ -7,9 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Museum</title>
     <link rel="shortcut icon" href="#" type="image/x-icon">
+    <link rel="stylesheet" href="css/index.css">
     <style>
         .background {
-            background: rgba(20, 20, 20, 0.463)
+            background-color: grey;
+
         }
     </style>
 </head>
@@ -19,19 +21,19 @@
         <div class="header__top-line-container">
             <p class="header__address">Phone: + 1-234-567-8900</p>
             <div class="header__social-icons">
-                <a href="https://www.facebook.com/" class="header__icons-item">
+                <a href="#" class="header__icons-item">
                     <img width="40" src="img/facebook-icon.svg" alt="Facebook">
                 </a>
-                <a href="https://ua.linkedin.com/" class="header__icons-item">
+                <a href="#" class="header__icons-item">
                     <img width="40" src="img/social-icon.svg" alt="Linkedin">
                 </a>
-                <a href="https://twitter.com/" class="header__icons-item">
+                <a href="#" class="header__icons-item">
                     <img width="40" src="img/twitt-social-icon.svg" alt="Twitter">
                 </a>
             </div>
         </div>
         <nav class="header__nav">
-            <h2 class="header__nav-top-symol"><a href="../index.html">MET.</a></h2>
+            <h3 class="header__nav-top-symol"><a href="./index.html">MET.</a></h3>
             <div class="header__menu">
                 <a href="#" class="header__menu-item">About</a>
                 <a href="#" class="header__menu-item">Tickets</a>
@@ -43,8 +45,8 @@
             </div>
         </nav>
         <div class="header__banner">
-            <h1 class="header__title">Discover the works of Bernini</h1>
-            <img src="/img/lable.svg" width="200" alt="lable">
+            <h1 class="header__title">Discover the works of <span class="colortext">Bernini</span></h1>
+            <img src="/img/lable.svg" width="70" alt="lable">
             <p class="header__text">A special set of guided tours in The Metropolitan
                 Museum of Art from 10 Nov. to 13 Nov. 2019</p>
         </div>
@@ -52,7 +54,7 @@
             <form action="submit-form.php" method="post">
                 <label for="name">Name*</label>
                 <input type="text" id="name" name="name" required>
-                <label for="name">Phone number*</label>
+                <label for="number">Phone number*</label>
                 <input type="number" id="number" name="phone" required>
                 <label for="email">Email*</label>
                 <input type="email" id="email" name="email" required>
@@ -64,7 +66,7 @@
         <section class="masters">
             <div class="masters__offer">
                 <h4>ABOUT THE EXHIBITION</h4>
-                <img src="/img/lable.svg" width="200" alt="lable">
+                <img src="/img/lable.svg" width="70" alt="lable">
                 <h2>Meet the Great Masters</h2>
                 <p>A special set of guided tours of a Bernini and Caravaggio exhibition let you dive in the most
                     valuable
@@ -93,6 +95,17 @@
                 <a href="#" class="space__link">See more</a>
                 <a href="#" class="space__link">Book Tickets</a>
             </nav>
+        </section>
+        <section class="gallery">
+            <div class="gallery__title">
+                <h4>GALLERY</h4>
+                <h2>In artem veritas</h2>
+                <img src="/img/lable.svg" width="70" alt="lable">
+                <p>That is, the truth is always in art. Artists and sculptors reflected
+                     historical and political events in their works. Thanks to museum 
+                     exhibitions, you can now see how the history was going.</p>
+            </div>
+
         </section>
     </main>
     <footer class="footer">
