@@ -1,12 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,700&display=swap');
 *{
-    color: rgb(255, 255, 255);
+    color: rgb(153, 153, 153);
     font-family: Lato, sans-serif;
-    font-size: 22px;
-    font-weight: 700;
-    line-height: 28.82px;
-    text-align: center;
-    vertical-align: baseline;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 28.5px;
+    text-align: left;
 }
 h2{
     font-family: 'Playfair Display', serif;
@@ -26,4 +25,12 @@ h4{
     line-height: 20.04px;
     letter-spacing: 2.4px;
 
+}
+h5 {
+    color: rgb(255, 255, 255);
+    font-family: Lato, sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 28.5px;
+    text-align: left;
 }
