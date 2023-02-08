@@ -1,44 +1,61 @@
-.header{
-    background-image: url(../img/backgroundMain.webp);
+.header {
+    background: linear-gradient(#161414d8, #101010cb), url(../img/backgroundMain.webp);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
 }
-.contacts__form-title{
+
+.contacts__form-title {
     color: rgb(255, 255, 255);
     font-family: Lato, sans-serif;
     font-size: 22px;
     font-weight: 900;
     text-align: center;
 }
-.header__address{
+
+.header__address {
     color: rgb(255, 255, 255);
     font-family: Lato, sans-serif;
     font-size: 14px;
 }
-.header__nav-top-symol{
+
+.header__nav-top-symol {
+    text-decoration: none;
     color: rgb(255, 255, 255);
     font-family: Lato, sans-serif;
     font-size: 26px;
     font-weight: 900;
 }
-.header__title{
+
+.lable {
+    background-color: transparent !important;
+    text-align: left;
+    width: 50px;
+}
+
+.header__title {
     font-family: 'Playfair Display', serif;
     color: rgb(255, 255, 255);
     text-align: left;
     font-size: 58px;
 }
-.colortext{
+
+.colortext {
     color: rgb(179, 156, 89);
     font-family: 'Playfair Display', serif;
     text-align: left;
     font-size: 58px;
 }
-.text-brand-color{
+
+.text-brand-color {
     color: rgb(179, 156, 89);
     font-family: Lato, sans-serif;
     font-size: 22px;
     font-weight: 700;
 
 }
-.header__text{
+
+.header__text {
     color: rgb(255, 255, 255);
     font-family: Lato, sans-serif;
     font-size: 22px;
@@ -46,11 +63,26 @@
     font-weight: 700;
     text-align: center;
 }
-.contacts__form{
+
+.contacts__form {
     color: rgb(153, 153, 153);
     font-family: Lato, sans-serif;
     font-weight: 400;
     line-height: 26.52px;
     text-align: left;
     vertical-align: baseline;
+}
+
+.header__social-icons {
+    width: 50px;
+
+}
+
+.header__menu-item {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.spot {
+    color: var(--accent-color);
 }

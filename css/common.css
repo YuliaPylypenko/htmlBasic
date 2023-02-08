@@ -8,7 +8,7 @@
 
 :root {
     --text-color: rgb(153, 153, 153);
-    --accent-color: #a6c7cf;
+    --accent-color: rgb(179, 156, 89);
     font-size: 19px;
     scroll-behavior: smooth;
     font-family: Lato, sans-serif;
