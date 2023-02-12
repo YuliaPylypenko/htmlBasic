@@ -28,7 +28,7 @@ h2{
     line-height: 44px;
 }
 
-h4{
+h4 {
     color: rgb(179, 156, 89);
     font-family: Lato, sans-serif;
     font-size: 12px;
@@ -38,6 +38,7 @@ h4{
     letter-spacing: 2.4px;
 
 }
+
 h5 {
     color: rgb(255, 255, 255);
     font-family: Lato, sans-serif;
